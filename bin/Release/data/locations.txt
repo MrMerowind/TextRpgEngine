@@ -1,0 +1,27 @@
+#This is a coment line
+#Every location info starts with its definition of name
+#Example is shown below:
+#
+#LocationName=Name of your location
+#LocationDescription=A description or story about this location
+#LocationTag=Tag of location      <- will be used in scripts [coming soon]
+#Npc=Name of the npc created in npcs.txt
+#Npc=Name of second npc
+#Mob=Name of mob available in this location
+#MobChance=5   <- chance to spawn, higher number provides more chance | this is chance of the upper mob
+#Mob=Name of another mob, must be set in mobs.txt
+#MobSpawnChance=40  <- There are only 2 mobs so chance to get this mob is 40/(40+5)*100%  where (40+5) is summary of all mob chances
+#                  Not setting a mob chance will leave it deafault which is 100
+#Path=Name of location you can travel to
+#Path=Name of another location you can visit
+#MobsAttackOnEnter=false     Do mobs attack player on entering location
+#
+#This is a default location without any mobs or npcs
+LocationName=Forest (bridge)
+LocationTag=Forest
+LocationDescription=This is a sample location. What you can see here are big trees all around you. You are following the trodden path.
+Path=Castle (entrance)
+LocationName=Castle (entrance)
+LocationTag=Castle
+LocationDescription=You are in front of the castle.
+Path=Forest (bridge)

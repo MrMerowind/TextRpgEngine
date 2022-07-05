@@ -1,0 +1,83 @@
+#Variables
+%WindowTitle%
+%StartingLocation%
+%Authors%
+%ExitInfo%
+%PlayerName%
+%PlayerLevel%
+%CurrentLocationName%
+%CurrentLocationDescription%
+%CurrentLocationTag%
+%CurrentLocationPathsInRow%
+%CurrentLocationPathsInColumn%
+%CurrentLocationPathsNumber%
+[CurrentLocationNextPath]
+!%InventoryItemInColumn%
+!%InventoryItemNumber%
+![InventoryNextItem]
+%PlayerName%
+%PlayerMaxHp%
+%PlayerHp%
+%PlayerWeapon%
+%PlayerHelmet%
+%PlayerGloves%
+%PlayerPants%
+%PlayerArmour%
+%PlayerBoots%
+%PlayerLevel%
+%PlayerExp%
+%PlayerExpForNextLevel%
+%NextLine%
+#Functions
+[OnLocationEnter,]
+[DisplayFile,file.txt]
+[ClearScreen]
+[DisplayFileNoParse,file.txt]
+[DisplayText,Funny text]
+[Cut,text,5,4]  5 is start position 4 is lenght
+[DisplayFileNotChanged,file.txt]
+[SetValue,variable,45]    note that variable is without %
+[IsKeyPressed,a]
+[IsKeyPressed,%variable%]
+[ReadWord,variable]
+[ReadLine,variable]
+[Wait,1000]   wait time in miliseconds
+[WaitForKey]   waits for any key
+[Reload]  reload location
+![StartFight]
+[If,[IsKeyPressed,f],[StartFight],]    if  bool   true  false
+[Not,true]
+[Or,true,false]
+[And,true,true]
+![SaveGame,file.save]
+[ExitGame]
+[Equal,4,5]   false
+[Greater,4,5] false
+[Lesser,4,5]  true
+[GreaterOrEqual,4,5] false
+[LesserOrEqual,4,5]  true
+[Different,4,5] true 
+[SetCursorPosition,5]
+[Math,(%PlayerExp%*100)/%PlayerExpForNextLevel%]    calculate data
+[Repeat,%CurrentLocathionPathsNumber%,[CurrentLocationNextPath]]   repeat line number of times
+!!!!
+[KeepRunning]
+	// Keep doing script in a loop
+[/KeepRunning]
+\    writte next letter and ignore its function
+#Colors
+&001  - Dark Blue
+&002  - Dark Green
+&003  - Dark Aqua
+&004  - Dark Red
+&005  - Dark Pink
+&006  - Dark Yellow
+&007  - Gray
+&008  - Dark Gray
+&009  - Blue
+&010  - Green
+&011  - Aqua
+&012  - Red
+&013  - Pink
+&014  - Yellow
+&015  - White

@@ -1,0 +1,3 @@
+#Everything below this comment will be shown in help menu
+Writte your help info in help.txt
+Use config.txt to set name of the window

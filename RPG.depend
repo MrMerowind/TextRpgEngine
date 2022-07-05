@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1468429993 source:c:\users\mero\desktop\rpg\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<windows.h>
+	<conio.h>
+	<cstdio>
+	<fstream>
+	<ctime>
+	<sstream>
+	<cctype>
+	<cmath>
+	"declarations.h"
+	"calculator.h"
+	"functions.h"
+	"classes.h"
+	"parser.h"
+	"game.h"
+
+1468167475 c:\users\mero\desktop\rpg\functions.h
+
+1468429107 c:\users\mero\desktop\rpg\classes.h
+
+1468431092 c:\users\mero\desktop\rpg\game.h
+
+1468343963 c:\users\mero\desktop\rpg\parser.h
+
+1468344036 c:\users\mero\desktop\rpg\declarations.h
+
+1468149410 c:\users\mero\desktop\rpg\calculator.h
+

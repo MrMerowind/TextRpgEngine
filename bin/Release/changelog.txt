@@ -1,0 +1,34 @@
+[Do zrobienia:]
+Edycja zmiennych gry przez api
+
+[W przyszlosci:]
+Walka z mobam
+Wszystkie teksty do configa
+Rozmowa z npc talks.txt
+
+[W dalekiej przyszlosci:]
+Rozmowa z npc
+Questy
+Tagi do lokacji mobow i npc
+Logo silnika z autorami
+Edytowalne menu
+Anty cheat
+Kompilacja do nieedytowalnego pliku
+
+QuestName=Rat plague
+QuestObtain=Mario
+QuestSubmit=Mario
+QuestNeed=kill:rat:20
+QuestReward=Your mom's dildo:1
+QuestReward=gold:200
+QuestTalk=Sup nigga. I need yo help. Kill thiz rats pls. Thx. K. Bye
+
+QuestName=Find Amy's Brother
+QuestObtain=Amy
+QuestSubmit=Mario
+QuestReward=Dildo:1
+QuestTalk=I am lookin' for my bro. Can u find him?
+
+[Bugi do naprawienia]
+Migajace zero w pokazie lokacji
+Wyswietlanie sie ca³ych lini zamiast czêœci

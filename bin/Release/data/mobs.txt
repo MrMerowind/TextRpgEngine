@@ -1,0 +1,20 @@
+#----------------
+MobName=Snow wolf
+Hp=100
+Damage=5
+Block=20
+CritChance=5
+Loot=Wolf fang
+LootChance=20
+Loot=Wolf tail
+LootChance=20
+#----------------
+MobName=Sand wolf
+Hp=100
+Damage=5
+Block=20
+CritChance=5
+Loot=Wolf fang
+LootChance=20
+Loot=Wolf tail
+LootChance=20

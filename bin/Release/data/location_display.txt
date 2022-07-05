@@ -1,0 +1,36 @@
+#This is location info. Do not rewrite Api if you dont know how does it work
+#Test funkcji
+[KeepRunning]
+[If,[IsKeyPressed,e],[ExitGame],]
+[/KeepRunning]
+&164      -\[Player info\]-      &047
+&033[Cut,Nick: &046%PlayerName%,0,31]
+&033[Cut,Level: &046%PlayerLevel% ([Math,%PlayerExp%*100/%PlayerExpForNextLevel%]\%),0,31]
+&033[Cut,Health: &046%PlayerHp%/%PlayerMaxHp% ([Math,%PlayerHp%*100/%PlayerMaxHp%]\%),0,31]
+&033[Cut,Location: &044%CurrentLocationName%,0,31]
+
+&164       -\[Locations\]-       &015
+%CurrentLocationPathsInColumn%
+
+&164          -[Guide]-          &047
+Press &044f&047 to fight with enemy
+Press &044i&047 to open inventory  
+Press &044e&047 to exit to menu    
+
+Writte number of location  
+to visit:                  &042
+[SetCursorPosition,75,1]&164         -\[Quest\]-         &047
+[SetCursorPosition,75,2][Cut,&033Name: &046Rat plague,0,35]
+[SetCursorPosition,75,3][Cut,&033Kill: &046Rats (7/20),0,35]
+[SetCursorPosition,75,4]&024Talk with Gregor           &042
+#Description
+[SetValue,szer,27]
+&043[SetCursorPosition,75,7]&164 -\[Location  description\]- &047
+[SetCursorPosition,75,8][Cut,%CurrentLocationDescription%,[Math,%szer%*0],%szer%]
+[SetCursorPosition,75,9][Cut,%CurrentLocationDescription%,[Math,%szer%*1],%szer%]
+[SetCursorPosition,75,10][Cut,%CurrentLocationDescription%,[Math,%szer%*2],%szer%]
+[SetCursorPosition,75,11][Cut,%CurrentLocationDescription%,[Math,%szer%*3],%szer%]
+[SetCursorPosition,75,12][Cut,%CurrentLocationDescription%,[Math,%szer%*4],%szer%]
+[SetCursorPosition,75,13][Cut,%CurrentLocationDescription%,[Math,%szer%*5],%szer%]
+[SetCursorPosition,75,14][Cut,%CurrentLocationDescription%,[Math,%szer%*6],%szer%]
+[SetCursorPosition,1,15]&015

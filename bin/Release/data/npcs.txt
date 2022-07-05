@@ -1,0 +1,8 @@
+NpcName=Mario
+SellItems=True
+BuyItems=False
+Quest=Rat plague
+Quest=Find Amy
+Talk=Woods
+Item=Blade
+Item=Rat tail

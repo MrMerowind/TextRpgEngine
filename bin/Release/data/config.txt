@@ -1,0 +1,10 @@
+#This is a comment line
+#WindowTitle is a name of the window. You can write here your game name
+WindowTitle=Change window name in config.txt
+#Name of location that you start your game in. Must exist in locations.txt
+StartingLocation=Forest (bridge)
+ExitInfo=Thank you for playing. Have a nice day.
+Authors=     Change authors in config.txt      
+PlayerStartingHp=100
+WindowWidth=100
+WindowHeight=30
